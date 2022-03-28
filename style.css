@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.firstimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    filter: brightness(0.8);
+}
+
+nav {
+    margin: auto;
+    width: 1100px;
+    color: rgb(182, 182, 182);
+}
+
+.pinkdiv {
+    height: 100px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+
+.yellowdiv {
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.infobanner {
+    position: absolute;
+    width: 60%;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+
+.container {
+    content: "";
+    display: table;
+    clear: both;
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.divtop {
+    height: auto;
+}
+
+.colorgray {
+    color: rgb(182, 182, 182);
+}
+
+
+.divcenter {
+    height: 350px;
+    width: 50%;
+    float: left;
+}
+
+
+.divside {
+    height: 350px;
+    width: 25%;
+    float: left;
+}
+
+.purplediv {
+    height: 50px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: purple;
+    margin-bottom: 10px;
+}
